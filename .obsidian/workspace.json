@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "c6e12c1b2a60fe83",
+    "type": "split",
+    "children": [
+      {
+        "id": "c22d9739cec2e69d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "413704a8cbfd9d1b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0b97c8cdd225aafe",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e4aeb4f02d06119",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "afd29bcc217b1751",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "2d0d39f50d1b3d4e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "91a8360517f9ffc7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "61c0c9b881f02639",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf91dd9505f207d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c4bc1b98d7e79b2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos"
+            }
+          },
+          {
+            "id": "67c1b5f463febb68",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "3a63096306d02d5f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "546cd3a7f713f395",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "1dfad910205ebb83",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "413704a8cbfd9d1b",
+  "lastOpenFiles": [
+    "templates/INDEX.md",
+    "06 - RAG and Memory/INDEX.md",
+    "13 - Real Use Cases/Stack moderna para um laboratório de operações inteligentes.md",
+    "13 - Real Use Cases/Stack mínima para estudar agentes localmente.md",
+    "13 - Real Use Cases/RAG para documentação técnica.md",
+    "13 - Real Use Cases/Observabilidade de aplicações LLM com Langfuse + OpenTelemetry.md",
+    "13 - Real Use Cases/Workflows de automação com n8n + IA.md",
+    "13 - Real Use Cases/Base de conhecimento pessoal com Obsidian + Excalidraw.md",
+    "13 - Real Use Cases/Agente de código com OpenHands.md",
+    "13 - Real Use Cases/Memória operacional com Qdrant + incidentes.md",
+    "13 - Real Use Cases/Laboratório de agentes com OpenClaw + Ollama.md",
+    "13 - Real Use Cases/Assistente corporativo com LibreChat + MCP.md",
+    "03 - Agent Frameworks/INDEX.md",
+    "14 - Comparisons/Qdrant vs Weaviate vs Chroma.md",
+    "14 - Comparisons/n8n vs Dify vs Flowise.md",
+    "14 - Comparisons/Obsidian vs Logseq.md",
+    "14 - Comparisons/Ollama vs LM Studio.md",
+    "14 - Comparisons/Claude Code vs Cursor vs OpenHands.md",
+    "14 - Comparisons/LibreChat vs Open WebUI.md",
+    "14 - Comparisons/LangChain vs LlamaIndex.md",
+    "99 - Inbox/INDEX.md",
+    "15 - Roadmaps/INDEX.md",
+    "14 - Comparisons/INDEX.md",
+    "13 - Real Use Cases/INDEX.md",
+    "12 - Protocols and Standards/INDEX.md",
+    "11 - Observability/INDEX.md",
+    "ai-stack"
+  ]
+}
