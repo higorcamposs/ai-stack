@@ -1,4 +1,4 @@
-﻿---
+---
 tipo: conceito
 nome: Contexto
 categoria: foundations
@@ -7,22 +7,22 @@ tags: [conceito]
 
 # Contexto
 
-## DefiniÃ§Ã£o
-Contexto Ã© o conjunto de informaÃ§Ãµes disponÃ­veis para o modelo no momento da execuÃ§Ã£o. Pode incluir instruÃ§Ãµes, histÃ³rico da conversa, documentos, estado da tarefa, memÃ³ria e saÃ­da de ferramentas.
+## Definição
+Contexto é o conjunto de informações disponíveis para o modelo no momento da execução. Pode incluir instruções, histórico da conversa, documentos, estado da tarefa, memória e saída de ferramentas.
 
 ## Por que isso importa
 Boa parte da qualidade de um sistema com IA depende mais do contexto certo do que de um modelo supostamente mais forte. Isso aparece em [[06 - RAG and Memory/LlamaIndex|LlamaIndex]], [[05 - Coding Agents/Claude Code|Claude Code]] e [[04 - Chat Interfaces/Open WebUI|Open WebUI]].
 
 ## Como funciona
-O contexto Ã© montado antes da chamada ao modelo.
+O contexto é montado antes da chamada ao modelo.
 
-- Parte dele vem do usuÃ¡rio.
-- Parte vem do sistema e das instruÃ§Ãµes.
-- Parte pode vir de busca, memÃ³ria, arquivos ou ferramentas.
+- Parte dele vem do usuário.
+- Parte vem do sistema e das instruções.
+- Parte pode vir de busca, memória, arquivos ou ferramentas.
 - Tudo isso entra na janela de contexto que o modelo consegue processar.
 
-## RelaÃ§Ã£o com outras ideias
-Contexto estÃ¡ ligado a [[01 - Foundations/LLM|LLM]], [[06 - RAG and Memory/RAG|RAG]], [[06 - RAG and Memory/MemÃ³ria|MemÃ³ria]] e [[06 - RAG and Memory/Embeddings|Embeddings]].
+## Relação com outras ideias
+Contexto está ligado a [[01 - Foundations/LLM|LLM]], [[06 - RAG and Memory/RAG|RAG]], [[06 - RAG and Memory/Memória|Memória]] e [[06 - RAG and Memory/Embeddings|Embeddings]].
 
 ## Ferramentas que usam isso
 - [[06 - RAG and Memory/LlamaIndex|LlamaIndex]]
@@ -30,9 +30,9 @@ Contexto estÃ¡ ligado a [[01 - Foundations/LLM|LLM]], [[06 - RAG and Memory/RA
 - [[05 - Coding Agents/Cursor|Cursor]]
 - [[04 - Chat Interfaces/LibreChat|LibreChat]]
 
-## Exemplo prÃ¡tico
-Quando um agente de cÃ³digo lÃª arquivos do repositÃ³rio antes de propor uma alteraÃ§Ã£o, ele estÃ¡ ampliando o contexto disponÃ­vel para responder melhor.
+## Exemplo prático
+Quando um agente de código lê arquivos do repositório antes de propor uma alteração, ele está ampliando o contexto disponível para responder melhor.
 
-## Minha interpretaÃ§Ã£o
-Contexto Ã© a matÃ©ria-prima imediata do raciocÃ­nio do sistema. Se ele estÃ¡ incompleto, confuso ou excessivo, o resultado tende a piorar.
+## Minha interpretação
+Contexto é a matéria-prima imediata do raciocínio do sistema. Se ele está incompleto, confuso ou excessivo, o resultado tende a piorar.
 

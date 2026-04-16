@@ -1,4 +1,4 @@
-﻿---
+---
 tipo: conceito
 nome: Embeddings
 categoria: rag-memory
@@ -7,30 +7,30 @@ tags: [conceito]
 
 # Embeddings
 
-## DefiniÃ§Ã£o
-Embeddings sÃ£o representaÃ§Ãµes numÃ©ricas de texto, imagem ou outro conteÃºdo em um espaÃ§o vetorial. Eles servem para comparar semelhanÃ§a de significado entre itens.
+## Definição
+Embeddings são representações numéricas de texto, imagem ou outro conteúdo em um espaço vetorial. Eles servem para comparar semelhança de significado entre itens.
 
 ## Por que isso importa
-Sem embeddings, grande parte dos fluxos modernos de busca semÃ¢ntica e RAG nÃ£o funciona da forma conhecida hoje. Eles permitem buscar por significado, nÃ£o apenas por palavra exata.
+Sem embeddings, grande parte dos fluxos modernos de busca semântica e RAG não funciona da forma conhecida hoje. Eles permitem buscar por significado, não apenas por palavra exata.
 
 ## Como funciona
-Um modelo de embedding transforma um texto em uma lista de nÃºmeros.
+Um modelo de embedding transforma um texto em uma lista de números.
 
-- Textos com significado parecido tendem a ficar prÃ³ximos nesse espaÃ§o.
+- Textos com significado parecido tendem a ficar próximos nesse espaço.
 - O sistema compara vetores para achar itens relevantes.
-- Essa comparaÃ§Ã£o costuma alimentar a recuperaÃ§Ã£o em um [[06 - RAG and Memory/Vector Database|vector database]].
+- Essa comparação costuma alimentar a recuperação em um [[06 - RAG and Memory/Vector Database|vector database]].
 
-## RelaÃ§Ã£o com outras ideias
-Embeddings sÃ£o base de [[06 - RAG and Memory/RAG|RAG]], trabalham com [[06 - RAG and Memory/Vector Database|Vector Database]] e afetam a qualidade do [[01 - Foundations/Contexto|Contexto]] entregue ao modelo.
+## Relação com outras ideias
+Embeddings são base de [[06 - RAG and Memory/RAG|RAG]], trabalham com [[06 - RAG and Memory/Vector Database|Vector Database]] e afetam a qualidade do [[01 - Foundations/Contexto|Contexto]] entregue ao modelo.
 
 ## Ferramentas que usam isso
 - [[06 - RAG and Memory/LlamaIndex|LlamaIndex]]
 - [[06 - RAG and Memory/Qdrant|Qdrant]]
 - [[03 - Agent Frameworks/LangChain|LangChain]]
 
-## Exemplo prÃ¡tico
-Uma pergunta como "como pedir fÃ©rias?" pode recuperar um documento chamado "polÃ­tica de ausÃªncia e descanso" mesmo sem repetir exatamente as mesmas palavras.
+## Exemplo prático
+Uma pergunta como "como pedir férias?" pode recuperar um documento chamado "política de ausência e descanso" mesmo sem repetir exatamente as mesmas palavras.
 
-## Minha interpretaÃ§Ã£o
-Embeddings sÃ£o uma forma prÃ¡tica de aproximar significado por distÃ¢ncia matemÃ¡tica. Eles nÃ£o entendem o texto como uma pessoa entende, mas sÃ£o muito Ãºteis para busca e recuperaÃ§Ã£o.
+## Minha interpretação
+Embeddings são uma forma prática de aproximar significado por distância matemática. Eles não entendem o texto como uma pessoa entende, mas são muito úteis para busca e recuperação.
 
