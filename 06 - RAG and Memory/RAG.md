@@ -4,7 +4,6 @@ nome: RAG
 categoria: rag-memory
 tags: [conceito]
 ---
-
 # RAG
 
 ## Definição

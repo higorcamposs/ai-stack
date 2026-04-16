@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Foundations/Agente.md",
+                "file": "06 - RAG and Memory/RAG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agente"
+              "title": "RAG"
             }
           }
         ]
@@ -182,11 +182,22 @@
   },
   "active": "413704a8cbfd9d1b",
   "lastOpenFiles": [
+    "06 - RAG and Memory/Qdrant.md",
+    "06 - RAG and Memory/Memória.md",
     "06 - RAG and Memory/LlamaIndex.md",
-    "13 - Real Use Cases/Agente de código com OpenHands.md",
-    "01 - Foundations/Agente.md",
-    "templates/INDEX.md",
+    "06 - RAG and Memory/Embeddings.md",
     "06 - RAG and Memory/INDEX.md",
+    "04 - Chat Interfaces/Open WebUI.md",
+    "04 - Chat Interfaces/LibreChat.md",
+    "03 - Agent Frameworks/LangGraph.md",
+    "03 - Agent Frameworks/LangChain.md",
+    "01 - Foundations/Tool Calling.md",
+    "01 - Foundations/LLM.md",
+    "01 - Foundations/INDEX.md",
+    "01 - Foundations/Contexto.md",
+    "01 - Foundations/Agente.md",
+    "13 - Real Use Cases/Agente de código com OpenHands.md",
+    "templates/INDEX.md",
     "13 - Real Use Cases/Stack moderna para um laboratório de operações inteligentes.md",
     "13 - Real Use Cases/Stack mínima para estudar agentes localmente.md",
     "13 - Real Use Cases/RAG para documentação técnica.md",
@@ -197,17 +208,6 @@
     "13 - Real Use Cases/Laboratório de agentes com OpenClaw + Ollama.md",
     "13 - Real Use Cases/Assistente corporativo com LibreChat + MCP.md",
     "03 - Agent Frameworks/INDEX.md",
-    "14 - Comparisons/Qdrant vs Weaviate vs Chroma.md",
-    "14 - Comparisons/n8n vs Dify vs Flowise.md",
-    "14 - Comparisons/Obsidian vs Logseq.md",
-    "14 - Comparisons/Ollama vs LM Studio.md",
-    "14 - Comparisons/Claude Code vs Cursor vs OpenHands.md",
-    "14 - Comparisons/LibreChat vs Open WebUI.md",
-    "14 - Comparisons/LangChain vs LlamaIndex.md",
-    "99 - Inbox/INDEX.md",
-    "15 - Roadmaps/INDEX.md",
-    "14 - Comparisons/INDEX.md",
-    "13 - Real Use Cases/INDEX.md",
     "ai-stack"
   ]
 }
